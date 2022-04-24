@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab0247c8.css",
+    "main.js": "/static/js/main.0443540b.js",
+    "static/js/787.4267e50e.chunk.js": "/static/js/787.4267e50e.chunk.js",
+    "static/media/johnPrine.PNG": "/static/media/johnPrine.7e24fa8f0ba6ffa173c9.PNG",
+    "static/media/flyingBurrito.PNG": "/static/media/flyingBurrito.4d39a95127070bfa836b.PNG",
+    "static/media/reactLogo.PNG": "/static/media/reactLogo.2dbe92923343c65896e6.PNG",
+    "static/media/chuckBerry.PNG": "/static/media/chuckBerry.e4d6cc24edf86cdb857c.PNG",
+    "static/media/jimCroce.PNG": "/static/media/jimCroce.56716151ef851af7fcf0.PNG",
+    "static/media/billyShaver.PNG": "/static/media/billyShaver.b58fcf663bab883d02cd.PNG",
+    "static/media/billWithers.PNG": "/static/media/billWithers.45c394357abf71892e14.PNG",
+    "static/media/creedence.PNG": "/static/media/creedence.9162ba8786af3d3906d2.PNG",
+    "static/media/alabama.PNG": "/static/media/alabama.528391f11487a57d6ed1.PNG",
+    "static/media/benKing.PNG": "/static/media/benKing.461a80acd50b7781e686.PNG",
+    "static/media/spiritInTheSky.PNG": "/static/media/spiritInTheSky.e1becf0d7a3233f92df3.PNG",
+    "index.html": "/index.html",
+    "main.ab0247c8.css.map": "/static/css/main.ab0247c8.css.map",
+    "main.0443540b.js.map": "/static/js/main.0443540b.js.map",
+    "787.4267e50e.chunk.js.map": "/static/js/787.4267e50e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab0247c8.css",
+    "static/js/main.0443540b.js"
+  ]
+}
