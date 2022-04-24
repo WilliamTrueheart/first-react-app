@@ -14,6 +14,7 @@ body {
     align-items: center;
     padding:0; margin:0;
     z-index: 9999;
+    border-bottom:rgb(106, 195, 222) solid 4px;
 }
 
 #topText {
@@ -26,7 +27,7 @@ body {
 #searchBar {
     width:200px;
     position: absolute;
-    right:6%;
+    right:8%;
     border-radius: 12px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
@@ -62,7 +63,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap:15px;
-    border-radius: 30px;
+    border-radius: 20px;
 
 }
 
@@ -70,7 +71,7 @@ body {
     width: max-content;
     height:min-content;
     margin:0;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .section_Para {
@@ -82,12 +83,17 @@ body {
 }
  
 #sectionOne_L_Title {
-    padding: 100px 0 0 10%;
+    padding: 80px 0 0 20%;
 }
 
 #sectionOne_L_Para {
     width:60%;
-    padding: 10px 0 0 10%;
+    padding: 10px 0 0 20%;
+}
+#sectionOne_L_ParaB {
+    font-size: small;
+    width:60%;
+    padding: 10px 0 0 20%;
 }
 
 #sectionOne_R_Title {
@@ -108,18 +114,116 @@ body {
 }
 
 #topPicks {
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(37, 37, 37);
     width:50%;
     height:400px;
     margin-top: -100px;
     margin-left: 6%;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(27, 134, 221) 0px 0px 4px 1px;
+}
+
+#topPicks_UI{
+    width:90%; height:90%;
+    background-color: rgb(235, 235, 235);
+    padding:10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:2%;
+}
+
+.topPicks_UI_Item {
+    width:30%; height:48%;
+    background-color: rgba(17, 50, 80, 0.442);
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    color:white;
+    text-align: end;
+}
+
+.artist {
+    width: 100%;
+
+    font-size: .8rem;
+    padding: 4px 5% 4px 4px;
+    box-sizing: border-box;
+    position: absolute;
+    top:50%;
+
+}
+.album {
+    width: 100%;
+
+    font-size: .8rem;
+    padding: 4px 5% 4px 4px;
+    box-sizing: border-box;
+    position: absolute;
+    font-size: .7rem;
+    top:61%;
+}
+.song {
+    width: 100%;
+
+    font-size: .7rem;
+    padding: 4px 5% 4px 4px;
+    box-sizing: border-box;
+    position: absolute;
+    top:73%;
+}
+
+.topPicks_UI_Item_BackDrop {
+    position: absolute;
+    background-color: #151515e6;
+    height:44%;
+    width:96%;
+    left:2%;
+    bottom:0;
+    border-top-left-radius: 12px;
+}
+
+#topPicks_UI_Item_1 {
+    background-image: url('chuckBerry.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topPicks_UI_Item_2 {
+    background-image: url('creedence.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topPicks_UI_Item_3 {
+    background-image: url('flyingBurrito.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topPicks_UI_Item_4 {
+    background-image: url('spiritInTheSky.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topPicks_UI_Item_5 {
+    background-image: url('johnPrine.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topPicks_UI_Item_6 {
+    background-image: url('jimCroce.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #quote1 {
     width:max-content;
     height: 100px;
-    box-shadow: grey 0px 0px 6px 1px;
+    box-shadow: rgb(210, 210, 210) 0px 0px 6px 1px;
     text-align: center;
     display:flex;
     align-items: center;
@@ -128,10 +232,116 @@ body {
     margin-left: 7.2%;
     margin-top:100px;
     padding: 0 20px 0px 20px;
+    border-radius: 12px;
 }
 
 
+#sectionTwo_Wrapper {
+    width:100%;
+    height: max-content;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 60px 0;
+}
 
+#sectionTwo_UI {
+    background-color: rgb(26, 61, 92);
+    width:70%;
+    height:min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#defaultDiv {
+    background-color: aliceblue;
+    width:100%;
+    height:min-content;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+    border-radius: 8px;
+}
+
+#defaultDivNav {
+    height:60px;
+    width:100%;
+    margin-bottom: 20px;
+   background-image: linear-gradient(140deg, rgba(164, 163, 163, 0.662), rgba(194, 193, 193, 0.359), rgba(0, 0, 0, 0.656) 100%);
+    padding: 17px;
+    box-sizing: border-box;
+    display:flex;
+    gap:10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.musicFilters {
+    background-color: rgb(0, 0, 0);
+    width:max-content;
+    padding:6px;
+    color:white;
+    border-radius: 20px;
+    font-size: .9rem;
+    box-shadow: black 0px 0px 2px 1px;
+}
+
+.musicItem {
+    width:150px; height: 150px;
+    background-color: aqua;
+    color:white;
+    font-size: .7rem;
+    display: none;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background-size: cover;
+}
+
+.musicBackDrop {
+    position: absolute;
+    width:100%;
+    height:44%;
+    background-color: rgba(0, 0, 0, 0.854);
+    top:34%;
+}
+
+.songNames {
+    position: absolute;
+    top:30%;
+}
+.albumNames {
+    position: absolute;
+    top:42%;
+}
+.artistNames {
+    position: absolute;
+    top:53%;
+}
+
+#musicItem3 {
+    background-image: url('benKing.PNG');
+}
+#musicItem4 {
+    background-image: url('billyShaver.PNG');
+}
+#musicItem5 {
+    background-image: url('billWithers.PNG');
+}
+
+.musicItem_Alabama {
+    background-image: url('alabama.PNG');
+    background-size: cover;
+}
 
 @media screen and (max-width: 1000px) {
     #sectionOne_L {
@@ -149,10 +359,23 @@ body {
     #quote1 {
         display:none;
     }
+    #topPicks {
+        border-radius: 0px;
+    }
+    #sectionOne_R {
+        border-radius: 0px;
+    }    
+    #sectionOne_Wrapper {
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 800px) {
  
+    #sectionOne_Wrapper {
+        padding-bottom: 0px;
+        justify-content: center;
+    }
     #sectionOne_L {
         width:100%;
         height:max-content;
@@ -174,5 +397,17 @@ body {
     }
     #topPicks {
         border-radius: 0px;
+        height:550px;
+        padding:5px;
+    }
+    #topPicks_UI {
+        width:65%; 
+    }
+    .topPicks_UI_Item {
+        width:49%; height:32%;
+    }
+    #sectionTwo_UI {
+        background-color: rgb(26, 61, 92);
+        width:73.5%;
     }
 }
